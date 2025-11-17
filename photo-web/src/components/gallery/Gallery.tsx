@@ -1,0 +1,1 @@
+// TODO: full width, fixed height?, showing pictures in a row, with a caption on the bottom of each picture

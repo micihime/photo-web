@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+# Color Palettes for portfolio web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌊 **Option 1 — Deep Navy (#0A1F44)**
 
-Currently, two official plugins are available:
+**Mood:** Modern, calm, and sophisticated — great for fine-art, cityscape, or portrait photography.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Element | Color | Hex Code | Notes |
+| --- | --- | --- | --- |
+| **Primary (brand color)** | Deep Navy | `#0A1F44` | Use for header, buttons, or footer background. |
+| **Background** | Off-white | `#F7F8FA` | Slightly warm white makes photos pop and avoids stark contrast. |
+| **Font (main text)** | Charcoal gray | `#333333` | Softer than black, very readable on light backgrounds. |
+| **Accent** | Soft sky blue | `#5DA9E9` | Use for hover states, links, or call-to-action highlights. |
 
-## React Compiler
+**Font pairing suggestion:**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Headings:** *Playfair Display* or *Montserrat*
+- **Body:** *Open Sans* or *Lato*
+    
+    → Combination of clean sans-serif and elegant serif balances modernity and artistry.
+    
 
-## Expanding the ESLint configuration
+## 🌿 **Option 2 — Olive Green (#4C6B4F)**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Mood:** Organic, grounded, and warm — perfect for nature, travel, or outdoor photography.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Element | Color | Hex Code | Notes |
+| --- | --- | --- | --- |
+| **Primary (brand color)** | Olive Green | `#4C6B4F` | Use for nav bar, logo accents, and buttons. |
+| **Background** | Light beige / Sand | `#F4F1EA` | Warm and natural, complements green beautifully. |
+| **Font (main text)** | Dark charcoal | `#2B2B2B` | Excellent readability with subtle warmth. |
+| **Accent** | Muted gold | `#C2A878` | Adds elegance and richness to buttons or hover effects. |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Font pairing suggestion:**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Headings:** *Merriweather* or *Cormorant Garamond*
+- **Body:** *Nunito Sans* or *Raleway*
+    
+    → A nice balance of sophistication and readability, evoking a handcrafted, natural vibe.

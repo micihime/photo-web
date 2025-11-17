@@ -1,0 +1,1 @@
+// TODO: full width, fixed height, stick to the top, logo on the left, motto/slogan on the right

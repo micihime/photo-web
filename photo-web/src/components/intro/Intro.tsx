@@ -1,0 +1,1 @@
+// TODO: full width, short intro text on the left, autoportrait on the right

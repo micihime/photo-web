@@ -1,0 +1,1 @@
+// TODO: full width, fixed height, stick to the bottom, contact links in first row (email, IG, other?), second row with "designed by " + name and link
