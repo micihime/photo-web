@@ -1,13 +1,19 @@
 # Photography Website Template
 
-This project is a modern, responsive template for a photography website, built with React and Vite.
+This is a generic, modern template for building a photography website. It is designed to be forked and customized for any photographer or studio. You can use this as a starting point for your own site, or for others (for example, for yourself and your husband).
 
 ## Features
 - Responsive design for all devices
 - Gallery and portfolio sections
-- Easy customization
-- Fast performance with Vite
-- Modern UI/UX
+- Easy to customize for any photographer
+- Fast performance (built with React and Vite)
+- Clean, modern UI/UX
+
+## How to Use
+1. **Fork or copy this repository** to your own GitHub account or local machine.
+2. **Rename and update** the project as needed (e.g., change the name, update images, text, and branding).
+3. **Customize** the content in the `src/` and `public/` folders to fit the needs of the specific photographer or studio.
+4. **Deploy** your customized site to your preferred hosting platform.
 
 ## Getting Started
 
@@ -17,7 +23,7 @@ This project is a modern, responsive template for a photography website, built w
 
 ### Installation
 ```bash
-git clone https://github.com/your-username/photo-web.git
+git clone https://github.com/micihime/photo-web.git
 cd photo-web
 npm install
 # or
@@ -46,8 +52,10 @@ yarn build
 - `vite.config.ts` - Vite configuration
 - `tsconfig.json` - TypeScript configuration
 
-## Customization
-You can customize the content, styles, and images in the `src/` and `public/` folders to fit your needs.
+## Customization Tips
+- Replace images and text with your own content.
+- Update colors, fonts, and layout in the CSS files.
+- Add or remove sections as needed for your style or business.
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
