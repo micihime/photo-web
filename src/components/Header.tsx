@@ -1,8 +1,9 @@
 function Header() {
   return (
-    <>
-      Header
-    </>
+    <div>
+      <img src="./logo.svg" alt="logo" />
+      <h2>short slogan</h2>
+    </div>
   )
 }
 

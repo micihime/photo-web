@@ -1,8 +1,9 @@
 function About() {
   return (
-    <>
-      About
-    </>
+    <div>
+      <h2>Why?</h2>
+      <h2>Services</h2>
+    </div>
   )
 }
 

@@ -1,8 +1,9 @@
 function Intro() {
   return (
-    <>
-      Intro
-    </>
+    <div>
+      <h2>short intro</h2>
+      <img src="./autoportrait.jpg" alt="autoportrait" />
+    </div>
   )
 }
 
