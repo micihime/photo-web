@@ -1,13 +1,13 @@
+import logo from '../assets/logo.png'
+
 function Gallery() {
   return (
     <div>
-      <img src="./gallery-1.jpg" alt="gallery image" />
-      <img src="./gallery-2.jpg" alt="gallery image" />
-      <img src="./gallery-3.jpg" alt="gallery image" />
-      <img src="./gallery-4.jpg" alt="gallery image" />
-      <img src="./gallery-5.jpg" alt="gallery image" />
-      <img src="./gallery-6.jpg" alt="gallery image" />
-      <img src="./gallery-7.jpg" alt="gallery image" />
+      <img src={logo} alt="logo" height="60px" width="auto" />
+      <img src={logo} alt="logo" height="60px" width="auto" />
+      <img src={logo} alt="logo" height="60px" width="auto" />
+      <img src={logo} alt="logo" height="60px" width="auto" />
+      <img src={logo} alt="logo" height="60px" width="auto" />
     </div>
   )
 }
