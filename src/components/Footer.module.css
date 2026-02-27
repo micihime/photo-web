@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: var(--footer-height);
+  background-color: var(--color-accent);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  padding: 0 2rem;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--color-primary-dark);
+}
+
+.iconButton:hover {
+  color: var(--color-primary);
+}
