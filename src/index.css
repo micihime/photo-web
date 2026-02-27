@@ -3,12 +3,11 @@
 :root {
   /* Colors */
   --color-primary: #4C6B4F; /* Use for nav bar, logo accents, and buttons. */
+  --color-primary-dark: #2F4A32; /* Use for nav bar, logo accents, and buttons. */
   --color-accent: #C2A878; /* Use for buttons or hover effects. */
   --color-background: #F4F1EA;
   --color-text: #2B2B2B;
 
-  --color-links: #2F4A32;
-  
   /* Font sizes */
   --font-size-base: 18px;
   --font-size-h3: 24px;
@@ -47,7 +46,7 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   text-align: center;
   font-family: 'Merriweather', 'Cormorant Garamond', serif;
 }
@@ -69,9 +68,9 @@ p {
 }
 
 a {
-  color: var(--color-links);
+  color: var(--color-primary-dark);
 }
 
 a:hover {
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
