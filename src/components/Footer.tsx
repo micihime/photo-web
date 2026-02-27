@@ -1,12 +1,16 @@
-function Footer() {
-  return (
-    <div>
+import styles from "./Footer.module.css";
+import {
+  IconBrandInstagram,
+  IconMail,
+} from "@tabler/icons-react";
+
+function Footer() {return (
+    <div className={styles.footer}>
       <div>
-        <span>Phone</span>
-        <span>Email</span>
-        <span>Instagram</span>
+        <a href="https://instagram.com/topinkastudio"><IconBrandInstagram size={30} /></a>
+        <a href="https://instagram.com/topinkastudio"><IconMail size={30} /></a>
       </div>
-      <p>Designed by Miči</p>
+      <p>Designed by <a href="https://mitchie.dev/">Miči</a></p>
     </div>
   )
 }
