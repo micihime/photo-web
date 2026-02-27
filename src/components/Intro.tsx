@@ -1,10 +1,11 @@
 import autoportrait from '../assets/autoportrait.jpg'
+import styles from "./Intro.module.css";
 
 function Intro() {
   return (
-    <div>
-      <h2>short intro</h2>
-      <img src={autoportrait} alt="autoportrait" height="60px" width="auto" />
+    <div className={styles.intro}>
+      <p className={styles.introText}>short intro</p>
+      <img src={autoportrait} alt="autoportrait" className={styles.portrait} />
     </div>
   )
 }

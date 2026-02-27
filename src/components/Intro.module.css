@@ -1,0 +1,20 @@
+.intro {
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-standard) 0; /* top-bottom padding */
+}
+
+.portrait {
+  height: 100px;
+  width: 100px;
+  border-radius: var(--border-radius-circle);
+  object-fit: cover; /* to prevent stretching */
+}
+
+.introText {
+  color: var(--color-accent);
+}
