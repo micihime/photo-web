@@ -20,8 +20,9 @@
 
   /* Other */
   --border-radius-circle: 50%;
+  --header-height: 90px; 
   --footer-height: 70px;
-  --max-content-width: 1200px;
+  --max-content-width: 1000px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

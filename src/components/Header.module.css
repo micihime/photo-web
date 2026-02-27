@@ -1,0 +1,21 @@
+.header {
+  height: var(--header-height);
+  background-color: var(--color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.slogan {
+  color: var(--color-accent);
+}

@@ -1,10 +1,11 @@
 import logo from '../assets/logo.png'
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div>
-      <img src={logo} alt="logo" height="60px" width="auto" />
-      <h2>short slogan</h2>
+    <div className={styles.header}>
+      <img src={logo} alt="logo" className={styles.logo} />
+      <h3 className={styles.slogan}>short slogan</h3>
     </div>
   )
 }
