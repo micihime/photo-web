@@ -14,12 +14,12 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        <a href="https://instagram.com/topinkastudio"><IconBrandInstagram size={30} /></a>
+        <a href="https://instagram.com/topinkastudio" target="_blank" rel="noopener noreferrer"><IconBrandInstagram size={30} /></a>
         <button type="button" className={styles.iconButton} onClick={handleEmailClick}>
           <IconMail size={30} />
         </button>
       </div>
-      <p>Designed by <a href="https://mitchie.dev/">Miči</a></p>
+      <p>Designed by <a href="https://mitchie.dev/" target="_blank" rel="noopener noreferrer">Miči</a></p>
     </div>
   )
 }
