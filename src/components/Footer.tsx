@@ -1,6 +1,7 @@
 import styles from "./Footer.module.css";
 import {
   IconBrandInstagram,
+  IconSquareRoundedLetterSFilled,
   IconMail,
 } from "@tabler/icons-react";
 
@@ -14,8 +15,9 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        <a href="https://instagram.com/topinkastudio" target="_blank" rel="noopener noreferrer"><IconBrandInstagram size={30} /></a>
-        <button type="button" className={styles.iconButton} onClick={handleEmailClick}>
+        <a href="https://instagram.com/topinkastudio" target="_blank" rel="noopener noreferrer" title="Instagram"><IconBrandInstagram size={30} /></a>
+        <a href="https://shutterstock.com/micihime" target="_blank" rel="noopener noreferrer" title="Shutterstock"><IconSquareRoundedLetterSFilled size={30} /></a>
+        <button type="button" className={styles.iconButton} onClick={handleEmailClick} title="Email">
           <IconMail size={30} />
         </button>
       </div>
