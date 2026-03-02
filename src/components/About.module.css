@@ -3,7 +3,14 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: space-between;
+  gap: var(--spacing-standard);
   padding: var(--spacing-standard) 0; /* top-bottom padding */
+}
+
+.photoIcon {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-standard);
 }

@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--spacing-standard);
   padding: var(--spacing-standard) 0; /* top-bottom padding */
 }
 
