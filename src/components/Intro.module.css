@@ -9,12 +9,9 @@
 }
 
 .portrait {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
+  flex-shrink: 0;
   border-radius: var(--border-radius-circle);
   object-fit: cover; /* to prevent stretching */
 }
-
-/* .introText {
-  color: var(--color-accent);
-} */
