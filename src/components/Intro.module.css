@@ -15,6 +15,6 @@
   object-fit: cover; /* to prevent stretching */
 }
 
-.introText {
+/* .introText {
   color: var(--color-accent);
-}
+} */
