@@ -14,3 +14,15 @@
   justify-content: center;
   gap: var(--spacing-standard);
 }
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-standard);
+  }
+
+  .photoIcon {
+    display: none;
+  }
+}

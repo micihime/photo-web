@@ -16,3 +16,15 @@
   border-radius: var(--border-radius-circle);
   object-fit: cover; /* to prevent stretching */
 }
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-standard);
+  }
+
+  .portrait {
+    display: none;
+  }
+}
