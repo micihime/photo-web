@@ -21,7 +21,7 @@ function Footer() {
           <IconMail size={30} />
         </button>
       </div>
-      <p>Designed by <a href="https://mitchie.dev/" target="_blank" rel="noopener noreferrer">Miči</a></p>
+      <p>Designed by <a href="https://mhresko.com/" target="_blank" rel="noopener noreferrer">Miči</a></p>
     </div>
   )
 }
