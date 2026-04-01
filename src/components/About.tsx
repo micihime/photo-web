@@ -1,9 +1,11 @@
 import styles from "./About.module.css";
 import { IconCameraHeart, IconMacroFilled } from "@tabler/icons-react";
+import photo from '../assets/photographing.jpg'
 
 function About() {
   return (
     <div className={styles.about}>
+      <img src={photo} alt="photographer taking pictures" className={styles.photo} />
       <div>
         <h2>Why I Photograph?</h2>
         <p>
@@ -17,23 +19,23 @@ function About() {
           <IconMacroFilled size={40} color="var(--color-primary-dark)" />
         </div>
       </div>
-      <div>
+      {/* <div>
         <h2>Work With My Images</h2>
         <p>
           My macro and abstract photography is available in several ways. You can license my images as stock
           photography through Shutterstock, where my portfolio covers abstract patterns, nature details, 
           different textures, food close-ups, ready to use for your creative or commercial projects. 
         </p>
-        {/* <p>
+        <p>
           My visuals are also 
           available as wallpapers and themes on the Samsung Galaxy Themes Store, bringing a touch of the 
           unexpected to your everyday screen. 
-        </p> */}
+        </p>
         <p>
           And if something in my gallery stops you in your tracks, prints are available upon request. Just 
           reach out and we can make it happen.
         </p>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -15,6 +15,13 @@
   gap: var(--spacing-standard);
 }
 
+.photo {
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover; /* to prevent stretching */
+}
+
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
