@@ -5,6 +5,7 @@ function Intro() {
   return (
     <div className={styles.intro}>
       <div>
+        <h1>Macro & Abstract Photography</h1>
         <p>
           I came to macro and abstract photography through a photography school, and honestly, it kind of took over. 😄 There's something about zooming into the ordinary — a water droplet, a piece of wood, a shadow on a wall — and finding that it's actually full of geometry, texture, and drama. I get a little obsessed with that.
         </p>

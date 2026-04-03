@@ -13,7 +13,7 @@ function Footer() {
   };
 
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div>
         <a href="https://instagram.com/topinkastudio" target="_blank" rel="noopener noreferrer" title="Instagram"><IconBrandInstagram size={30} /></a>
         {/* <a href="https://shutterstock.com/micihime" target="_blank" rel="noopener noreferrer" title="Shutterstock"><IconSquareRoundedLetterSFilled size={30} /></a> */}
@@ -22,7 +22,7 @@ function Footer() {
         </button>
       </div>
       <p>Designed by <a href="https://mhresko.com/" target="_blank" rel="noopener noreferrer">Miči</a></p>
-    </div>
+    </footer>
   )
 }
 
