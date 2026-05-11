@@ -3,15 +3,6 @@ import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import styles from "./Gallery.module.css";
 
 const images: { src: string; alt: string }[] = [
-  { src: "/gallery/1-DSC_0957.JPG", alt: "White paper flatlay with soft textures — minimalist abstract" },
-  { src: "/gallery/1-DSC_1030.JPG", alt: "White paper curves — abstract photography" },
-  { src: "/gallery/1-DSC_1065.jpg", alt: "White paper flowing curves — minimalist macro photograph" },
-  { src: "/gallery/2-DSC_0916.JPG", alt: "Dark paper angular shapes — geometric close-up" },
-  { src: "/gallery/3-DSC_0738.JPG", alt: "Colorful geometric abstract with dramatic shadows" },
-  { src: "/gallery/3-DSC_0845.jpg", alt: "Bright geometric abstract — color and form study" },
-  { src: "/gallery/3-DSC_0850.JPG", alt: "Multicolored geometric patterns — abstract macro detail" },
-  { src: "/gallery/5-DSC_0133.JPG", alt: "Pink bokeh light effect — abstract photography" },
-  { src: "/gallery/5-DSC_0201-1.jpg", alt: "Golden particles in motion — macro light photography" },
   { src: "/gallery/DSC_0185.JPG", alt: "Light painting experiment among trees — night photography" },
   { src: "/gallery/DSC_0256.jpg", alt: "Multicolored light painting — long exposure abstract" },
   { src: "/gallery/DSC_1851.jpg", alt: "Circle of light in the dark — abstract light photography" },
