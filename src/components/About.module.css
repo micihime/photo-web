@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  align-items: top;
+  align-items: center;
   justify-content: space-between;
   gap: var(--spacing-standard);
   padding: var(--spacing-standard) 0; /* top-bottom padding */
@@ -23,6 +23,12 @@
   object-fit: cover; /* to prevent stretching */
 }
 
+@media (max-width: 850px) {
+  .photoIcon {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
@@ -38,9 +44,5 @@
     order: 2;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .photoIcon {
-    display: none;
   }
 }
